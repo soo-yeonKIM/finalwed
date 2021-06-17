@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+@media (max-width: 1080px){
+}
+
+@media (min-width: 375px) and (max-width: 667px){
+}
+
+@font-face {
+    font-family: 'TmoneyRoundWindRegular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* { margin: 0; padding: 0; }
+
+html {
+overflow-y:scroll;
+overflow-x:hidden;
+height: 100%;
+
+}
+
+body {
+line-height: 1.6; 
+font-family: 'NanumSquareRound';
+height: 100%;
+width: 100%;
+max-width: 1080px;
+margin: 0 auto;
+padding: 0;
+background: #292929 repeat-y;
+background-position: center;
+background-attachment: fixed;
+background-color: #FFFFFF;
+cursor: default;
+color: #222;
+}
+
+
+.illust{ 
+	 display: block; margin: 0px auto;}
+
+#clear{clear: both;}
+
+#photo{
+}
+
+
+.star-rating{
+	width: 200px;
+	height:auto;
+	display : block;
+	margin : auto;
+	padding-top: 20px;
+}
+
+h1{
+	text-align: center;
+	font-size: 50px;
+}
+
+
+h2{
+	text-align: center;
+}
+
+
+#contents{
+	line-height: 1.25;
+	padding: 2% 2.15%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	letter-spacing: -0.01em;
+	background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+	
+}
+
+.write{
+	line-height: 24px; 
+	font-size: 19px;
+	vertical-align: baseline;
+	margin: 5%;
+	
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+
+}
+
+.middle{
+	
+	text-align: left;
+	
+}
+
+#foot{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bolder;
+	color: #0C24B0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto !important;
+}
+
+button{
+	width:150px;
+	height: 50px;
+	color:#fff;
+	background: #004fff;
+	font-size: 18px;
+	font-family: 'NanumSquareRound';
+	border:none;
+	border-radius: 30px;
+	transition:0.3s;
+}
+button:focus {
+	outline:0;
+}
+button:hover{
+	background: rgba(0,79,255,0.9);
+	cursor: pointer;
+}
+
+@media all and (max-width: 667px) {
+body { font-size: 15px; }
+h1 { font-size: 50px; letter-spacing: -0.01em;}
+h2 { font-size: 26px; }
+}
+
+@media all and (max-width: 375px) {
+body { font-size: 12px; }
+h1 { font-size: 50px; letter-spacing: 0em;}
+h2 { font-size: 24px; }
+}
+
